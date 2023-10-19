@@ -1,0 +1,40 @@
+* {
+    text-decoration: none;
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(247, 244, 242);
+
+
+
+}
+
+.logo {
+    width: 90px;
+}
+
+.menu-principal>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    font-size: 15px;
+    gap: 10px;
+
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.button-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
